@@ -2,7 +2,7 @@ import os
 from litellm import completion
 
 # Set the Groq API key
-os.environ["GROQ_API_KEY"] = "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"  # Replace with your actual API key
+os.environ["GROQ_API_KEY"] = ""  # Replace with your actual API key
 
 def classify_query(query, model_name):
     """Classify the query using Groq's LiteLLM."""
