@@ -6,7 +6,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 import sys
 
 # Set the Groq API Key
-os.environ["GROQ_API_KEY"] = "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"  # Replace with your actual API key
+os.environ["GROQ_API_KEY"] = ""  # Replace with your actual API key
 
 # Initialize Groq LLM
 llm = ChatGroq(groq_api_key=os.getenv("GROQ_API_KEY"), model_name="groq/llama-3.1-70b-versatile")
