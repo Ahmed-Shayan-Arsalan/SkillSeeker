@@ -29,7 +29,7 @@ if not GROQ_API_KEY:
 llm = ChatGroq(model_name="groq/llama-3.1-70b-versatile", groq_api_key=GROQ_API_KEY)
 
 # API Key for Ranking Agent's LLaMA 3.1 8B Model
-RANKING_AGENT_API_KEY = "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"
+RANKING_AGENT_API_KEY = ""
 ranking_llm = ChatGroq(model_name="groq/llama-3.1-8b-instant", groq_api_key=RANKING_AGENT_API_KEY)
 
 # ============================
